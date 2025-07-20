@@ -125,7 +125,7 @@ export default function App() {
             }}
         >
             <header className="flex items-center gap-3 p-2">
-                <div className="flex w-76 flex-none items-center justify-end gap-3">
+                <div className="flex w-92 flex-none items-center justify-end gap-3">
                     <svg className="size-5 cursor-pointer text-gray-400 hover:text-white" viewBox="0 0 20 20">
                         <path
                             fill="currentColor"
@@ -275,7 +275,7 @@ export default function App() {
 
                 <div className="mr-0.5 mb-0.5 flex flex-1 overflow-hidden rounded-lg border border-[#3B3D42]">
                     {/* Sidebar */}
-                    <aside className="flex w-64 flex-none flex-col border-r border-[#3B3D42] bg-[#17191B]">
+                    <aside className="flex w-80 flex-none flex-col border-r border-[#3B3D42] bg-[#17191B]">
                         <div className="flex items-center justify-between px-3">
                             <div className="flex items-center gap-1.5 px-3 py-3">
                                 <p className="text-lg font-extrabold">Acme</p>
